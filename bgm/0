@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>背景音乐</title>
+<script>
+function addm(){
+document.getElementById("bg").src="普通disco-言洛.mp3";
+}
+</script>
+</head>
+<body onload="addm()">
+<bgsound id="bg">
+</body>
+</html>
