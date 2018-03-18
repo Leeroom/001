@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>给你的歌</title>
+    <style type="text/css">
+        body {
+            background-image: url(./images/0.png);
+            background-size: 100% 100%;
+            height: 100%;
+        }
+        html{
+            height:100%;
+        }
+        @keyframes myfrist {
+            0% {opacity:0}
+            25%{opacity:100}
+            50% {opacity:0}
+            100%{opacity:0}
+        }
+        @keyframes mysecond {
+            0% {opacity:0}
+            50%{opacity:0}
+            75% {opacity:100}
+            100%{opacity:0}
+        }
+        @keyframes mythirt {
+            0% {opacity:0}
+            75%{opacity:0}
+            85% {opacity:0}
+            100%{opacity:100}
+        }
+        p{
+            font-size: 100px;
+            position:absolute;
+            width:100%;
+            text-align:center;
+        }
+        #pu{animation:myfrist 10s infinite;}
+        #luo{animation:mysecond 10s infinite;}
+        #from{animation:mythirt 10s infinite;}
+    </style>
+</head>
+<body>
+<audio src="bgm/普通disco-言洛.mp3" autoplay="autoplay">
+    Your browser does not support the audio tag.
+</audio>
+<p id="pu">普通的disco</p>
+<P id="luo">洛天依&言洛</P>
+<p id="from">from Lee</p>
+</body>
+</html>
